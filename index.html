@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>موقع دكتورعراق - مفتوح المصدر</title>
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #cce0ff, #e6f0ff);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .form-section {
+      background-color: white;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .form-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+
+    .note {
+      background-color: #e0ffe0;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+      border: 1px dashed green;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>موقع دكتورعراق - مفتوح المصدر</header>
+
+  <div class="hero">
+    <h1>أنشئ صفحتك كـ طبيب بسهولة</h1>
+    <p>املأ المعلومات أدناه واحفظ الصفحة لتشاركها مع مرضاك</p>
+  </div>
+
+  <div class="form-section">
+    <h2>معلومات الطبيب</h2>
+    <form>
+      <label>الاسم الكامل</label>
+      <input type="text" placeholder="مثال: د. أحمد عبد الله" required />
+
+      <label>التخصص</label>
+      <input type="text" placeholder="مثال: جلدية - باطنية - أسنان" required />
+
+      <label>المدينة</label>
+      <input type="text" placeholder="مثال: بغداد - البصرة - أربيل" />
+
+      <label>وسيلة التواصل (رقم أو واتساب)</label>
+      <input type="text" placeholder="مثال: 0770xxxxxxx" />
+
+      <label>نبذة عنك</label>
+      <textarea rows="4" placeholder="اكتب وصفاً عن خبرتك الطبية..."></textarea>
+
+      <label>رابط صورة (اختياري)</label>
+      <input type="url" placeholder="رابط مباشر لصورة الطبيب" />
+
+      <button type="submit" onclick="alert('يُرجى حفظ الصفحة يدويًا بعد إدخال البيانات')">عرض معلوماتي</button>
+    </form>
+
+    <div class="note">
+      هذا المشروع مفتوح المصدر – يمكنك حفظ الصفحة بعد إدخال بياناتك ومشاركتها كصفحة تعريف شخصية.
+    </div>
+  </div>
+
+  <footer>
+    صنع بحُب في العراق | DoctorIraq.com
+  </footer>
+
+</body>
+</html>

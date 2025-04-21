@@ -1,0 +1,86 @@
+<!DOCTYP>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقع دكتورعراق</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">دكتورعراق</h1>
+      <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">الأطباء</a>
+        <a href="#">التخصصات</a>
+        <a href="#">دخول</a>
+        <a href="#">تسجيل</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>احجز موعدك مع أفضل الأطباء في العراق</h2>
+      <div class="search-bar">
+        <select>
+          <option>اختر التخصص</option>
+          <option>باطنية</option>
+          <option>جلدية</option>
+          <option>أطفال</option>
+          <option>أسنان</option>
+        </select>
+        <select>
+          <option>اختر المدينة</option>
+          <option>بغداد</option>
+          <option>البصرة</option>
+          <option>أربيل</option>
+          <option>النجف</option>
+        </select>
+        <button>بحث</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="specialties">
+    <div class="container">
+      <h3>تخصصات شائعة</h3>
+      <div class="cards">
+        <div class="card">باطنية</div>
+        <div class="card">جلدية</div>
+        <div class="card">أطفال</div>
+        <div class="card">أسنان</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="top-doctors">
+    <div class="container">
+      <h3>أفضل الأطباء</h3>
+      <div class="cards">
+        <div class="card doctor">
+          <img src="https://via.placeholder.com/100" alt="طبيب">
+          <p>د. علي حسن</p>
+          <span>أخصائي باطنية</span>
+        </div>
+        <div class="card doctor">
+          <img src="https://via.placeholder.com/100" alt="طبيبة">
+          <p>د. فاطمة محمد</p>
+          <span>أخصائية جلدية</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 موقع دكتورعراق</p>
+      <div class="social">
+        <a href="#">فيسبوك</a> | <a href="#">إنستغرام</a> | <a href="#">تويتر</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+  
